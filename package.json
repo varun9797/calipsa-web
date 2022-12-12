@@ -11,8 +11,11 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
+    "@google-cloud/vision": "^3.0.1",
     "@popperjs/core": "^2.9.2",
+    "axios": "^1.2.1",
     "bootstrap": "^5.0.1",
+    "clarifai-nodejs-grpc": "^8.0.0",
     "vue": "^3.1.1",
     "vue-class-component": "^8.0.0-0",
     "vue-router": "^4.0.0-0",

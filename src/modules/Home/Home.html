@@ -1,0 +1,15 @@
+<clarifai-component />
+<div v-if="imageInfo && imageInfo[0]" id="app">
+    <table class="info table-striped">
+    <thead>
+      <tr>
+        <th v-for="i in imageInfo[0].data">{{i.name }}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+         <td v-for="i in imageInfo[0].data">{{ i.value }}</td>  
+      </tr>
+     </tbody>
+  </table>
+  </div>

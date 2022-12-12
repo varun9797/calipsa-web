@@ -1,0 +1,13 @@
+<div class="login-wrapper">
+    <form @submit.prevent="login">
+        <div class="imgcontainer">
+            <img src="@/assets/images/happy-face.png" class="avatar" alt="avatar" />
+        </div>
+        <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" v-model="uname" required>
+            <button type="submit">Login</button>
+            <span class="error" v-if="isConflict">Username already exist</span>
+        </div>
+    </form>
+</div>
